@@ -3,6 +3,15 @@
 	<name>job.web</name>
 	<comment></comment>
 	<projects>
+		<project>job.business.api</project>
+		<project>job.business.impl</project>
+		<project>job.common</project>
+		<project>job.member.api</project>
+		<project>job.member.impl</project>
+		<project>job.pub.api</project>
+		<project>job.pub.impl</project>
+		<project>job.search.api</project>
+		<project>job.search.impl</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
