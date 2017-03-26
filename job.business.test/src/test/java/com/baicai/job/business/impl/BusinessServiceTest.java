@@ -17,7 +17,7 @@ public class BusinessServiceTest extends BaseJunit4Test{
 	
 	
 	@Inject  //自动注入,默认按名称  
-    private ITestDao testDao;  
+    private ITestDao testDao;   
  
 @Test   //标明是测试方法  
 @Transactional   //标明此方法需使用事务  
