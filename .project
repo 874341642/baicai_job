@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>com.baicai.job</name>
+=======
+	<name>baicai_job</name>
+>>>>>>> refs/heads/wyz_dev
 	<comment></comment>
 	<projects>
 	</projects>

@@ -7,8 +7,18 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>BaicaiJob</name>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<springframework>4.0.2.RELEASE</springframework>
+		<log4j>1.2.17</log4j>
+		<jstl>1.2</jstl>
+		<jsoup>1.7.3</jsoup>
+		<json-lib>2.4</json-lib>
+		<jackson>2.2.2</jackson>
+	</properties>
 
-	<modules> 
+	<modules>
 
 		<module>job.business.api</module>
 		<module>job.business.impl</module>
@@ -24,16 +34,7 @@
 		<module>job.web</module>
 
 	</modules>
-	
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<springframework>4.0.2.RELEASE</springframework>
-		<log4j>1.2.17</log4j>
-		<jstl>1.2</jstl>
-		<jsoup>1.7.3</jsoup>
-		<json-lib>2.4</json-lib>
-		<jackson>2.2.2</jackson>
-	</properties>
+
 
 
 	<dependencyManagement>
