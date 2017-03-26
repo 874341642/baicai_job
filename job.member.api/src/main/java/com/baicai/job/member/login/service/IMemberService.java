@@ -1,6 +1,6 @@
 package com.baicai.job.member.login.service;
 
-import org.omg.CORBA.portable.ApplicationException;
+import com.baicai.job.common.ApplicationException;
 
 /** @Package com.baicai.job.member.api  
  * @ClassName IMemberService  

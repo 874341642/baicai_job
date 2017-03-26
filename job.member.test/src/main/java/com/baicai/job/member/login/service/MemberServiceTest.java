@@ -5,11 +5,13 @@ import static org.junit.Assert.assertTrue;
 import javax.inject.Inject;
 
 import org.junit.Test;
-import org.omg.CORBA.portable.ApplicationException;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
 
-public class MemberServiceTest {
+import com.baicai.job.common.ApplicationException;
+import com.baicai.job.test.common.BaseJunit4Test;
+
+public class MemberServiceTest extends BaseJunit4Test {
 
 	@Inject
 	private IMemberService memberService;
