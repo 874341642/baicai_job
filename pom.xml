@@ -32,6 +32,8 @@
 		<module>job.search.api</module>
 		<module>job.search.impl</module>
 		<module>job.web</module>
+		
+		<module>job.test</module>
 
 	</modules>
 
