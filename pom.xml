@@ -8,7 +8,7 @@
 	<packaging>pom</packaging>
 	<name>BaicaiJob</name>
 
-	<modules>
+	<modules> 
 
 		<module>job.business.api</module>
 		<module>job.business.impl</module>
