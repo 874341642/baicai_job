@@ -19,12 +19,6 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<springframework>4.0.2.RELEASE</springframework>
-		<log4j>1.2.17</log4j>
-		<jstl>1.2</jstl>
-		<jsoup>1.7.3</jsoup>
-		<json-lib>2.4</json-lib>
-		<jackson>2.2.2</jackson>
 	</properties>
 
 	<dependencies>
@@ -60,17 +54,6 @@
 			<artifactId>log4j</artifactId>
 		</dependency>
 
-		<!-- JSTL -->
-		<dependency>
-			<groupId>jstl</groupId>
-			<artifactId>jstl</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.jsoup</groupId>
-			<artifactId>jsoup</artifactId>
-		</dependency>
-
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
@@ -94,13 +77,6 @@
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-lgpl</artifactId>
-		</dependency>
-
-
-
-		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjrt</artifactId>
 		</dependency>
 
 		<dependency>
