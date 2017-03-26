@@ -35,6 +35,12 @@
 		
 		<module>job.test</module>
 		<module>job.business.test</module>
+		
+		<module>job.member.test</module>
+		
+		<module>job.pub.test</module>
+		
+		<module>job.search.test</module>
 
 	</modules>
 
