@@ -27,8 +27,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/job.business.api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/job.common"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/job.test"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/job.member.api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/job.member.impl"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
