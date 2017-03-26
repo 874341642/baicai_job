@@ -7,7 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.baicai.job.member.api.IMemberService;
+import com.baicai.job.member.login.service.IMemberService;
+
 
 
 @Controller  
