@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baicai.job.member.login.dao.IMemberDao">
+
+	<select id="findUserLogin" parameterType="String" resultType="boolean">
+		SELECT COUNT(*) FROM account WHERE account = #{account,jdbcType=VARCHAR} AND password=#{password,jdbcType=VARCHAR}
+	</select>
+
+</mapper>
