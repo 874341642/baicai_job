@@ -7,7 +7,7 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>BaicaiJob</name>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<springframework>4.0.2.RELEASE</springframework>
@@ -32,18 +32,17 @@
 		<module>job.search.api</module>
 		<module>job.search.impl</module>
 		<module>job.web</module>
-		
+
 		<module>job.test</module>
 		<module>job.business.test</module>
-		
+
 		<module>job.member.test</module>
-		
+
 		<module>job.pub.test</module>
-		
+
 		<module>job.search.test</module>
 
 	</modules>
-
 
 
 	<dependencyManagement>
@@ -186,6 +185,19 @@
 				<artifactId>gson</artifactId>
 				<version>2.8.0</version>
 			</dependency>
+
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>6.0.6</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.mariadb.jdbc</groupId>
+				<artifactId>mariadb-java-client</artifactId>
+				<version>1.5.9</version>
+			</dependency>
+
 
 
 		</dependencies>
