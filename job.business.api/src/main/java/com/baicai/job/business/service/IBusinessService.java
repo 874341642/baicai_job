@@ -1,4 +1,4 @@
-package com.baicai.job.business.api;
+package com.baicai.job.business.service;
 
 import java.util.List;
 

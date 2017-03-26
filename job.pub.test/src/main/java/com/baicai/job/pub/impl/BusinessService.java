@@ -9,7 +9,7 @@ import javax.inject.Named;
 import org.apache.log4j.Logger;
 import org.omg.CORBA.portable.ApplicationException;
 
-import com.baicai.job.business.api.IBusinessService;
+import com.baicai.job.business.service.IBusinessService;
 import com.baicai.job.business.test.dao.ITestDao;
 import com.baicai.job.business.test.vo.CustomerUser;
 
