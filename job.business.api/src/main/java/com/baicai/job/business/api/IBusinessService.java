@@ -1,10 +1,12 @@
 package com.baicai.job.business.api;
 
-/** @Package com.baicai.job.business.api  
- * @ClassName IBusinessService  
- * @author 刘小军
- * @date 2017年3月25日 下午5:22:42    
- */
+import java.util.List;
+
+import org.omg.CORBA.portable.ApplicationException;
+
+import com.baicai.job.business.test.vo.CustomerUser;
+
 public interface IBusinessService {
 
+	List<CustomerUser> findUser(String id) throws ApplicationException;
 }

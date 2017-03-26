@@ -10,6 +10,13 @@
 	<name>job.member.api</name>
 	<url>http://maven.apache.org</url>
 
+	<parent>
+		<groupId>com.baicai.job</groupId>
+		<artifactId>com.baicai.job</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../pom.xml</relativePath>  <!--本例中此处是可选的 -->
+	</parent>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>

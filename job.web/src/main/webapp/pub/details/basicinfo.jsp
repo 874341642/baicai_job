@@ -5,25 +5,31 @@
 <title>欢迎访问中国国际人才网</title>
 <style type="text/css">
 <!--
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;	
-}
-table{	
-	width:90%;
-	font-size:12px;
-	text-align:center;
-	margin:auto;
-}
-input { font-size:12px}
-td{
-	border-left:none;
-	border-right:none;
-	border-top:none;
-	border-bottom:1px solid #000000
-}
+	body {
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;	
+	}
+	
+	table{	
+		width:90%;
+		font-size:12px;
+		text-align:center;
+		margin:auto;
+	}
+	
+	input {
+		 font-size:12px;
+	}
+	
+	td{
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		border-bottom:1px solid #000000
+	}
+	
 -->
 </style>
 <script>
