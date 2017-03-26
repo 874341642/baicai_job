@@ -34,6 +34,7 @@
 		<module>job.web</module>
 		
 		<module>job.test</module>
+		<module>job.business.test</module>
 
 	</modules>
 
