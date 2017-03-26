@@ -30,5 +30,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/job.business.api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/job.common"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/job.test"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/job.business.impl"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
