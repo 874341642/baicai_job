@@ -3,7 +3,6 @@
 	<name>job.web</name>
 	<comment></comment>
 	<projects>
-		<project>com.baicai.job</project>
 		<project>job.business.api</project>
 		<project>job.business.impl</project>
 		<project>job.common</project>
