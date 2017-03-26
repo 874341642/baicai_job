@@ -14,6 +14,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<parent>
+		<groupId>com.baicai.job</groupId>
+		<artifactId>com.baicai.job</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../pom.xml</relativePath>  <!--本例中此处是可选的 -->
+	</parent>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
