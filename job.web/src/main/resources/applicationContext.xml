@@ -42,11 +42,11 @@
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="mapperLocations"
-			value="classpath*:com/job/**/dao/*Dao.xml" />
+			value="classpath*:com/baicai/job/**/dao/*Dao.xml" />
 	</bean>
 
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.job.**.dao" />
+		<property name="basePackage" value="com.baicai.job.**.dao" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 
